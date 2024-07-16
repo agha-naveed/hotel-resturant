@@ -306,6 +306,10 @@ ul li a {
 
 
 /* -------- News Feed --------- */
+.about-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
 .news {
     display: grid;
     grid-template-columns: repeat(3, 0fr);
