@@ -304,104 +304,6 @@ ul li a {
   cursor: pointer;
 }
 
-/* ========= About Menu ========== */
-.about-menu {
-    justify-content: center;
-    background-color: rgb(243, 243, 243);
-    height: 110vh;
-    padding: 50px 0;
-}
-.about-heading h3 {
-    color: rgb(102, 102, 102);
-    text-align: left;
-    font-weight: 500;
-    font-size: 15px;
-}
-.about-heading h1 {
-    font-size: 2.6rem;
-    text-align: left;
-    margin: 6px 0;
-}
-.about-heading {
-    padding: 0 21.5%;
-    margin: 40px 0;
-}
-.all-lists {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 0.2fr);
-    column-gap: 10vw;
-    place-content: center;
-    row-gap: 2vmin;
-}
-.all-lists .list {
-    display: flex;
-    height: 90px;
-    margin: 10px 0;
-    transition: 0.2s linear;
-}
-
-
-
-
-
-.list-img {
-    /* width: 100%; */
-}
-.about-menu .list-img img {
-    width: 90px;
-}
-.list-text {
-    height: 100%;
-    align-items: center;
-    margin-left: 20px;
-    padding: 0 10px 0 0;
-}
-.list-text h2 {
-    font-size: 18px;
-    font-weight: 500;
-    margin: 4px 0;
-}
-.list-text p {
-    font-size: 14px;
-    margin: 2px 0;
-    line-height: 16px;
-}
-
-.about-menu .list:hover {
-    background-color: #0F1A2C;
-    color: white;
-    cursor: pointer;
-    filter: blur(5px);
-}
-
-.all-lists:hover .list {
-    filter: blur(5px);
-}
-.all-lists .list:hover {
-    filter: blur(0px);
-    box-shadow: -10px 20px 35px rgba(0,0,0,0.15);
-    transform: scale(1.02);
-}
-
-
-/* -------- Grid Pic -------- */
-.grid-pic {
-    position: relative;
-    /* top: 1vmin; */
-}
-.grid-pic .picx {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: repeat(3, 0fr);
-    column-gap: 15px;
-    position: relative;
-    top: -30px;
-    /* margin: 20vmin 0; */
-}
-.picx img {
-    width: 20rem;
-}
 
 /* -------- News Feed --------- */
 .news {
@@ -447,7 +349,7 @@ ul li a {
     background-color: #0F1A2C;
     color: white;
     cursor: pointer;
-    box-shadow: 5px 20px 35px rgba(0,0,0,0.7);
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.5);
 }
 
 

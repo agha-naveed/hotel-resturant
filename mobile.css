@@ -66,12 +66,6 @@
     }
 
 
-    .grid-pic .picx {
-        grid-template-columns: repeat(2, 0fr);
-        row-gap: 15px;
-    }
-
-
     .news {
         
         grid-template-columns: repeat(2, 0fr);
@@ -144,14 +138,8 @@
     .list-img {
         margin: 0 20px;
     }
-    .grid-pic .picx {
-        grid-template-columns: repeat(2, 0fr);
-        row-gap: 15px;
-    }
+   
 
-    .about-menu {
-        height: 120vh;
-    }
 
     /*  ------ News Feed ------ */
     .news {
@@ -180,13 +168,6 @@
         width: 35vmin;
     }
     
-
-    .grid-pic .picx {
-        grid-template-columns: repeat(1, 0fr);
-    }
-    .grid-pic .picx img {
-        width: 50vmin;
-    }
 }
 
 
